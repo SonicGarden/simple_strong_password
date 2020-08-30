@@ -1,0 +1,9 @@
+en:
+  activemodel:
+    errors:
+      messages:
+        insufficient_password_characters: "must be a combination of %{required_char_category_count} types of passwords: lowercase letters, uppercase letters, numbers and symbols."
+  activerecord:
+    errors:
+      messages:
+        insufficient_password_characters: "must be a combination of %{required_char_category_count} types of passwords: lowercase letters, uppercase letters, numbers and symbols."

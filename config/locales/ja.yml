@@ -1,0 +1,9 @@
+ja:
+  activemodel:
+    errors:
+      messages:
+        insufficient_password_characters: "は英小文字、英大文字、数字、記号の中から%{required_char_category_count}種類を組み合わせてください。"
+  activerecord:
+    errors:
+      messages:
+        insufficient_password_characters: "は英小文字、英大文字、数字、記号の中から%{required_char_category_count}種類を組み合わせてください。"

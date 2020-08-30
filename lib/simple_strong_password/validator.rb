@@ -35,7 +35,7 @@ module ActiveModel
         char_category_count = self.class.patterns.count { |pattern| pattern.match?(value) }
 
         if char_category_count < options[:required_char_category_count]
-          record.errors.add(attribute, :insufficient_password_characters)
+          record.errors.add(attribute, :insufficient_password_characters, required_char_category_count: options[:required_char_category_count])
         end
       end
     end

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Simple password strength validator.}
   spec.homepage      = "https://github.com/SonicGarden/simple_strong_password"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["changelog_uri"] = "https://github.com/SonicGarden/simple_strong_password/releases"
